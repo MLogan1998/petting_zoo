@@ -15,11 +15,11 @@ from Viper import Viper
 from Whale import Whale
 
 
-miss_fuzz = Llama("Miss Fuzz", "Domestic Llama")
-george = Monkey("George", "Howler Monkey")
-gregory = Giraffe("Gregory", "Spotted Giraffe")
-donnie = Donkey("Donnie", "Catalan Donkey")
-helen = Horse("Helen", "Arabian Horse")
+miss_fuzz = Llama("Miss Fuzz", "Domestic Llama", "Morning")
+george = Monkey("George", "Howler Monkey", "Afternoon")
+gregory = Giraffe("Gregory", "Spotted Giraffe", "Midday")
+donnie = Donkey("Donnie", "Catalan Donkey", "Morning")
+helen = Horse("Helen", "Arabian Horse", "Afternoon")
 randy = Rattlesnake("Randy", "Texas Rattlesnake")
 mary = Mamba("Mary", "Black Mamba")
 vinnie = Viper("Vinnie", "Viper")
@@ -32,3 +32,4 @@ gary = Goldfish("Gary", "Lionhead Goldfish")
 tina = Tuna("Tina", "Blackfin Tuna")
 
 print(miss_fuzz, george, gregory, donnie, helen, randy, mary, vinnie, kerry, carlos, debra, walker, sarah, gary, tina)
+print(f'{george.name} the {george.species} is available to pet during the {george.shift} shift on {george.date_added}.')
