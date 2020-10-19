@@ -1,110 +1,18 @@
-from datetime import date
-
-class Llama:
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.walking = True
-
-class Monkey:
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.walking = True
-
-class Giraffe:
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.walking = True
-
-class Donkey:
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.walking = True
-
-class Horse:
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.walking = True
-
-
-class Rattlesnake:
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.slithering = True
-
-class Mamba:
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.slithering = True
-
-class Viper:
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.slithering = True
-
-class Kingsnake:
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.slithering = True
-
-class Cobra:
-    def __init__(self, name, species):
-        self.name = ""
-        self.sepcies = ""
-        self.date_added = date.today()
-        self.slithering = True
-
-class Dolphin:
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = True
-        
-class Whale:
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = True
-        
-class Shark:
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = True
-        
-class Goldfish:
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = True
-        
-class Tuna:
-    def __init__(self, name, species):
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = True
+from Cobra import Cobra
+from Dolphin import Dolphin
+from Donkey import Donkey
+from Giraffe import Giraffe
+from Goldfish import Goldfish
+from Horse import Horse
+from Kingsnake import Kingsnake
+from Llama import Llama
+from Mamba import Mamba
+from Monkey import Monkey
+from Rattlesnake import Rattlesnake
+from Shark import Shark
+from Tuna import Tuna
+from Viper import Viper
+from Whale import Whale
 
 
 miss_fuzz = Llama("Miss Fuzz", "Domestic Llama")
