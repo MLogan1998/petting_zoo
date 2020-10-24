@@ -13,3 +13,6 @@ from .shark import Shark
 from .tuna import Tuna
 from .viper import Viper
 from .whale import Whale
+from .pettingzoo import PettingZoo
+from .snakepit import Snakepit
+from .wetlands import Wetlands
