@@ -1,19 +1,4 @@
-from Cobra import Cobra
-from Dolphin import Dolphin
-from Donkey import Donkey
-from Giraffe import Giraffe
-from Goldfish import Goldfish
-from Horse import Horse
-from Kingsnake import Kingsnake
-from Llama import Llama
-from Mamba import Mamba
-from Monkey import Monkey
-from Rattlesnake import Rattlesnake
-from Shark import Shark
-from Tuna import Tuna
-from Viper import Viper
-from Whale import Whale
-
+from models import Cobra, Dolphin, Donkey, Giraffe, Goldfish, Horse, Kingsnake, Llama, Mamba, Monkey, Rattlesnake, Shark, Tuna, Viper, Whale
 
 miss_fuzz = Llama("Miss Fuzz", "Domestic Llama", "Morning", "Grass")
 george = Monkey("George", "Howler Monkey", "Afternoon", "Bananas")
