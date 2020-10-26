@@ -55,3 +55,5 @@ def add_animals_to_attractions():
   donnie.chipnum = 12334
 
   print(donnie.chipnum)
+
+  print(petting_zoo.last_critter_added)
