@@ -59,3 +59,7 @@ def add_animals_to_attractions():
   print(petting_zoo.last_critter_added)
 
   print(carlos)
+
+  donnie.feed()
+  randy.feed()
+  sarah.feed()
