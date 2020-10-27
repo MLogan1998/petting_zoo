@@ -16,3 +16,4 @@ from .whale import Whale
 from .pettingzoo import PettingZoo
 from .snakepit import Snakepit
 from .wetlands import Wetlands
+from .critter import Critter
