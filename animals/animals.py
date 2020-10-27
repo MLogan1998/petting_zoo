@@ -57,3 +57,5 @@ def add_animals_to_attractions():
   print(donnie.chipnum)
 
   print(petting_zoo.last_critter_added)
+
+  print(carlos)
