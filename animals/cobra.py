@@ -4,5 +4,5 @@ from movements import Slithering
 
 class Cobra(Critter, Slithering):
     def __init__(self, name, species, food, chipnum):
-        super().__init__(name, species, food, chipnum)
+        Critter.__init__(self, name, species, food, chipnum)
         Slithering.__init__(self)
