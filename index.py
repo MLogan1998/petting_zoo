@@ -13,23 +13,11 @@ def main():
   donnie = Donkey("Donnie", "Catalan Donkey", "Morning", "Hay", 23648)
   helen = Horse("Helen", "Arabian Horse", "Afternoon", "Apples", 54921)
 
-  petting_zoo.append_animal(miss_fuzz)
-  petting_zoo.append_animal(george)
-  petting_zoo.append_animal(gregory)
-  petting_zoo.append_animal(donnie)
-  petting_zoo.append_animal(helen)
-
   randy = Rattlesnake("Randy", "Texas Rattlesnake", "Mice", 81625)
   mary = Mamba("Mary", "Black Mamba", "Gerbils", 71603)
   vinnie = Viper("Vinnie", "Viper", "Lizzards", 49816)
   kerry = Kingsnake("Kerry", "King Snake", "Turtle Eggs", 19254)
   carlos = Cobra("Carlos", "King Cobra", "Hamster", 12345)
-
-  snakepit.append_animal(randy)
-  snakepit.append_animal(mary)
-  snakepit.append_animal(vinnie)
-  snakepit.append_animal(kerry)
-  snakepit.append_animal(carlos)
 
   debra = Dolphin("Debra", "Striped Dolphin", "Squids", 5678)
   walker = Whale("Walker", "Killer Whale", "Penguins", 41376)
@@ -37,11 +25,26 @@ def main():
   gary = Goldfish("Gary", "Lionhead Goldfish", "Fish Food", 28922)
   tina = Tuna("Tina", "Blackfin Tuna", "Shrimp", 43819)
 
+  petting_zoo.append_animal(miss_fuzz)
+  petting_zoo.append_animal(george)
+  petting_zoo.append_animal(gregory)
+  petting_zoo.append_animal(donnie)
+  petting_zoo.append_animal(helen)
+  petting_zoo.append_animal(debra) # Will Not Append.
+
+  snakepit.append_animal(randy)
+  snakepit.append_animal(mary)
+  snakepit.append_animal(vinnie)
+  snakepit.append_animal(kerry)
+  snakepit.append_animal(carlos)
+  snakepit.append_animal(helen) # Will Not Append.
+
   aquarium.append_animal(debra)
   aquarium.append_animal(walker)
   aquarium.append_animal(sarah)
   aquarium.append_animal(gary)
   aquarium.append_animal(tina)
+  aquarium.append_animal(randy) # Will Not Append.
 
   for animal in petting_zoo.animals:
     print(f'You can find {animal.name} the {animal.species} in {petting_zoo.name}')
@@ -51,7 +54,7 @@ def main():
 
   for animal in aquarium.animals:
     print(f"You can find {animal.name} the {animal.species} in {aquarium.name}")
-  
+
   donnie.chipnum = 12334
 
   print(donnie.chipnum)
