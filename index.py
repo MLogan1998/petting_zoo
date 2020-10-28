@@ -37,11 +37,11 @@ def main():
   gary = Goldfish("Gary", "Lionhead Goldfish", "Fish Food", 28922)
   tina = Tuna("Tina", "Blackfin Tuna", "Shrimp", 43819)
 
-  aquarium.appened_animal(debra)
-  aquarium.appened_animal(walker)
-  aquarium.appened_animal(sarah)
-  aquarium.appened_animal(gary)
-  aquarium.appened_animal(tina)
+  aquarium.append_animal(debra)
+  aquarium.append_animal(walker)
+  aquarium.append_animal(sarah)
+  aquarium.append_animal(gary)
+  aquarium.append_animal(tina)
 
   for animal in petting_zoo.animals:
     print(f'You can find {animal.name} the {animal.species} in {petting_zoo.name}')
@@ -56,12 +56,13 @@ def main():
 
   print(donnie.chipnum)
 
-  print(petting_zoo.last_critter_added)
+  print(aquarium.last_critter_added)
 
   print(carlos)
 
   donnie.feed()
   randy.feed()
   sarah.feed()
+  sarah.swim()
 
 main()
