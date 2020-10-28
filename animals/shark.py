@@ -4,7 +4,7 @@ from movements import Swimming
 
 class Shark(Critter, Swimming):
     def __init__(self, name, species, food, chipnum):
-        super().__init__(name, species, food, chipnum)
+        Critter.__init__(self, name, species, food, chipnum)
         Swimming.__init__(self)
 
     def feed(self):
